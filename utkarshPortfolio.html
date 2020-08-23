@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Utkarsh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" >
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Works</a></li>
+            <li><a href="#blog">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm <br><span>Utkarsh.</span></h2>
+            <h3>I'm an Android Developer.</h3>
+            <a href="https://drive.google.com/file/d/12irV_N-Vlv9VA5ZnBac2LXWpEE-eNapo/view" target="_blank" class="btn">My CV</a>
+        </div>
+        <div class="p50">
+            <img src="meh.JPG" class="proimg" style="width: 700px"; height="700px";  alt="Profile Image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a Learner.</h3>
+                <p>I have been learning android development for about 3-4 months now. Apart from android development, I have experience in programming languages such as C,C++,python,Java. I have also worked on mySql. I can speak languages Hindi, English, Spanish and French. As I said, I am a learner, so i will probably keep falling down and getting up throughout.</p>
+            </div>
+            <div class="w50">
+                <img src="about.JPG" class="img" alt="Random Image">
+            </div>
+        </div>
+
+    </section>
+    <section class="works" id="work">
+        <div class="heading white">
+            <h2>My Works</h2>
+        </div>
+        <div class="content">
+            <div class="worksBx">
+                <img src="stc.jpg">
+                <a href="https://play.google.com/store/apps/details?id=com.mstc.mstcapp" target="_blank" style="text-decoration: none;"><h2>STC APP</h2>
+                    <p>STC App is an android app that can be used by people who want to explore a new domain. Many a times we feel lost/directionless while exploring a domain, STC app helps in this situation by portraying a roadmap and giving apt resources. Furthermore, this app is made for my chapter, so it also keeps the students updated about the events,projects and the workshops we are hosting.</p></a>
+                
+            </div>
+            <div class="worksBx">
+                <img src="quizora.png">
+                <a href="https://github.com/utkarsh2290/Quiz" target="_blank" style="text-decoration: none;"><h2>QUIZORA</h2>
+                <p>Quizora is a quiz app that opens with a splashscreen and uses firebase realtime database to fetch questions. Furthermore a person can login into this quiz app using their facebook/google account or signup with their email. It checks your answers and displays the score at the end. This was given to me as a task. </p></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class ="blogs" id="blog">
+        <div class="heading">
+            <h2>My Blogs</h2>
+            
+        </div>
+        <div class="content">
+            <div class="worksBx" style="text-align: center">
+
+                <img src="medium.jpg" width="150px" height="150px">
+                <a href="https://medium.com/@utkarshshrivastav2290" target="_blank">
+                    <h2><b>Things to do before you graduate</b></h2>
+                    <p>This is my first medium article, through this i tried to share what i feel a person should do before one graduates.</p></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contact">
+        <div class="contactBx">
+            <h3>UTKARSH</h3>
+            <p>6204117799</p>
+            <p>utkarshshrivastav2290@gmail.com</p>
+            <p>Ranchi, Jharkhand-834008</p>
+
+        </div>
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100009679722653" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://github.com/utkarsh2290" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/utkarsh.shrivastav/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/utkarsh-829a061a2/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+        </div>
+    </section>
+   
+    <script type="text/javascript">
+    window.addEventListener('scroll',function(){
+        var header= document.querySelector('header');
+        header.classList.toggle('sticky',window.scrollY>0);
+    });
+    </script>
+</body>
+</html>
