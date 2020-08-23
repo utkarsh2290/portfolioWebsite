@@ -295,7 +295,7 @@ footer{
 .contacts .social-menu ul li {
     list-style: none;
 
-    margin: 0 30px;
+    margin: 0 10px;
 }
 .contacts .social-menu ul li .fa {
     color: #000000;
@@ -447,7 +447,35 @@ footer{
 }
 
 
+.contacts .contactBx h3
+{
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
 
+.contacts .contactBx
+{
+    font-size: 0.75em;
+    font-weight: 200;
+    line-height: 1.5em;
+    
+}
 
+.contacts .social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.contacts .social-menu ul li .fa {
+    font-size: 10px;
+    line-height: 15px;
+    transition: .5s;
+}
+.contacts .social-menu ul li a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+}
 
 }
